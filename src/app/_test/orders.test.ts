@@ -1,5 +1,5 @@
-import { describe, it, expect } from "vitest";
 import { orders } from "@/app/_data/orders";
+import { describe, expect, it } from "vitest";
 
 describe("orders data structure", () => {
   it("should have a list of orders with specific properties", () => {
